@@ -1,0 +1,6 @@
+" For Windows:
+filetype * start %m, explorer
+filetype * .bat cmd %m, explorer
+
+nnoremap o :! %"f %m<cr>
+
