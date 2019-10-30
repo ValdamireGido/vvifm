@@ -1,0 +1,3 @@
+nnoremap ,c :write | edit $MYVIFMRC | restart<cr>
+source $VIFM/.vifmrc.custom
+source $VIFM/.vifmrc.win
