@@ -1,0 +1,7 @@
+
+" For OS X:
+filetype * open
+
+nnoremap ,c ~/.vifm/vifmrc
+
+source ~/OneDrive/Documents/settings/vim/.vifmrc
