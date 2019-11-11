@@ -431,7 +431,7 @@ nnoremap yf :!echo %c:p | xclip %i<cr>
 nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
-nnoremap i :!vim %f<CR>
+nnoremap i :!vim %"f<CR>
 
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>
