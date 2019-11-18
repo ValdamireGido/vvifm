@@ -428,10 +428,10 @@ nnoremap yd :!echo %d | xclip %i<cr>
 nnoremap yf :!echo %c:p | xclip %i<cr>
 
 " Mappings for faster renaming
-nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
 nnoremap i :!vim %"f<CR>
+nnoremap I :!vim %"d<CR>
 
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>
@@ -476,3 +476,7 @@ nnoremap <f8> :delete<cr>
 "     vifm --server-name "$VIFM_SERVER_NAME" --remote +"cd '$PWD'"
 "
 " let $VIFM_SERVER_NAME = v:servername
+
+" Special viewcolumns settings 
+set viewcolumns=-{name},6{size},12{mtime}
+set number relativenumber
